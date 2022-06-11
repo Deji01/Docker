@@ -33,11 +33,11 @@ docker push deji01/removeme
 ## Serving a Trained Model Over HTTP
 File Structure
 
-└── Boston-Housing-master
-    ├── Dockerfile
-    └── webapp
-        ├── app.py
-        └── housing_pred.joblib
+└── Boston-Housing-master<br>
+    ├── Dockerfile<br>
+    └── webapp<br>
+        ├── app.py<br>
+        └── housing_pred.joblib<br>
 
 build container
 ```bash
