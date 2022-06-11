@@ -34,10 +34,10 @@ docker push deji01/removeme
 File Structure
 
 └── Boston-Housing-master<br>
-&nbsp;├── Dockerfile<br>
-&nbsp;└── webapp<br>
-&nbsp;&nbsp;├── app.py<br>
-&nbsp;&nbsp;└── housing_pred.joblib<br>
+&nbsp;&nbsp;&nbsp;├── Dockerfile<br>
+&nbsp;&nbsp;&nbsp;└── webapp<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├── app.py<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└── housing_pred.joblib<br>
 
 build container
 ```bash
